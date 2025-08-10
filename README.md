@@ -23,7 +23,7 @@ flowchart LR
   D --> E[Supabase Edge Function]
   E -->|Audio| F[Transcription API]
   F -->|Transcript| E
-  E -->|Prompt+Transcript| G[LLM API (MCQs)]
+  E -->|Prompt+Transcript| G[LLM API]
   G -->|MCQs JSON| E --> H[Service worker]
   H --> I[Content script overlay]
   I -->|Pause/Resume/Seek| J[Video element on page]
