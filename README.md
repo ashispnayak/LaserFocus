@@ -85,4 +85,4 @@ sequenceDiagram
 ---
 
 ## Contact
-Questions or feedback: **ashispnayak@gmail.com.com**
+Questions or feedback: **ashispnayak@gmail.com**
