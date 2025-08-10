@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LaserFocus Privacy Policy</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; 
+           line-height: 1.6; margin: 0; padding: 0; color: #0f172a; background:#fff; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 48px 20px 72px; }
+    h1 { font-size: 2rem; margin: 0 0 0.75rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; }
+    p, li { font-size: 1rem; }
+    .muted { color:#475569; }
+    .card { background:#f8fafc; border:1px solid #e2e8f0; border-radius: 14px; padding: 16px 18px; }
+    a { color:#4f46e5; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>LaserFocus Privacy Policy</h1>
+    <p class="muted"><strong>Effective date:</strong> 10 Aug 2025</p>
+
+    <p>LaserFocus helps you stay engaged with online videos by periodically generating multiple-choice questions. This policy explains what data we collect, how we use it, and your choices.</p>
+
+    <h2>What we collect</h2>
+    <ul>
+      <li><strong>Tab audio</strong> (active tab only, after you click Start). We capture sound from the current browser tab to create short questions. We <em>do not</em> access your microphone.</li>
+      <li><strong>Usage counters.</strong> Counts such as minutes processed and questions asked to enforce free-tier limits.</li>
+      <li><strong>Local settings.</strong> Your chosen interval and number of questions are stored locally in your browser.</li>
+    </ul>
+    <p>We <strong>do not</strong> collect your name, email, passwords, browsing history, keystrokes, or page text/images.</p>
+
+    <h2>How we use data</h2>
+    <ul>
+      <li><strong>Core functionality.</strong> We send tab audio to our backend, which forwards it to <strong>a transcriber</strong> for transcription. We then send transcript text to <strong>one llm</strong> to generate MCQs and display them in the page.</li>
+      <li><strong>Quota enforcement.</strong> Usage counters (e.g., minutes/questions used) are stored to apply monthly limits.</li>
+    </ul>
+
+    <h2>Data sharing</h2>
+    <p>We share data only with processors necessary to provide the service:</p>
+    <ul>
+      <li><strong>Transcriber API</strong> – automatic speech recognition (transcription of tab audio)</li>
+      <li><strong>LLM API</strong> – question generation from transcript text</li>
+    </ul>
+    <p>We do <strong>not</strong> sell your data or share it with advertisers.</p>
+
+    <h2>Storage &amp; retention</h2>
+    <ul>
+      <li><strong>Audio/transcripts.</strong> Not stored by LaserFocus after processing. Audio is transmitted for transcription and discarded. Transcripts used for question generation are processed in-memory and not retained by LaserFocus.</li>
+      <li><strong>Usage counters.</strong> Stored minimally to enforce daily limits and reset on a rolling basis (typically daily).</li>
+      <li><strong>Local settings.</strong> Saved on your device until you change or remove the Extension.</li>
+    </ul>
+
+    <h2>Security</h2>
+    <ul>
+      <li>All network traffic is encrypted in transit (HTTPS).</li>
+      <li>We use the minimum data needed to provide the feature set and restrict access by design (least privilege).</li>
+    </ul>
+
+    <h2>Permissions (why we need them)</h2>
+    <ul>
+      <li><code>tabCapture</code> – capture <strong>tab audio only</strong> after you click Start.</li>
+      <li><code>activeTab</code> &amp; <code>scripting</code> – inject the MCQ overlay and control video playback (pause/resume/seek) on the current page.</li>
+      <li><code>offscreen</code> – keep transcription running if the popup is closed.</li>
+      <li><code>storage</code> – remember your settings and usage counters.</li>
+      <li><code>tabs</code> / <code>notifications</code> / <code>alarms</code> – manage active tab video and timing (if enabled).</li>
+    </ul>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li>Click <strong>Stop</strong> at any time to end capture and question generation.</li>
+      <li>Uninstalling the Extension removes local settings stored by the Extension.</li>
+      <li>For data questions or deletion requests related to server-side usage counters, contact at <strong>ashispnayak@gmail.com</strong>.</li>
+    </ul>
+
+    <h2>International users &amp; legal bases</h2>
+    <p>For users in the EEA/UK, processing is based on <strong>performance of a contract</strong> (providing the features you request) and our <strong>legitimate interests</strong> (security, quota enforcement). You may have rights to access, correct, or delete personal data where applicable.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy as our product evolves. We will update the “Effective date” above and, where appropriate, provide additional notice.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or requests: <strong>ashispnayak@gmail.com</strong></p>
+  </main>
+</body>
+</html>
