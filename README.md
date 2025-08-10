@@ -84,10 +84,5 @@ sequenceDiagram
 
 ---
 
-## Screenshots
-> See the Chrome Web Store listing for the latest screenshots.
-
----
-
 ## Contact
 Questions or feedback: **ashispnayak@gmail.com.com**
